@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <title> Visualisation Dashboard </title>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/dashboards.css">
+
+    <!-- Javascript Library Files -->
+    <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+
+    <!-- Javascript Graph files  -->
+    <script src="/static/js/Choropleth_Map.js"></script>
+    <script src="/static/js/Parallel_Coordinates_Plot.js"></script>
+    <script src="/static/js/Bar_Chart.js"></script>
+    <script src="/static/js/Line_Chart.js"></script>
+    <script src="/static/js/Radar_Chart.js"></script>
+    <script src="/static/js/Graph_Functions.js"></script>
+    <script src="/static/js/Pie_Chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
+</head>
+
+<body>
+<div class="application">
+    <div class="container-fluid container-1">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"> Crime Statistics in United States </a>
+        </div>
+    </div>
+
+    <div class="container-fluid container-2">
+
+        <div class="row row-1">
+
+            <div class="col-lg-3 line-col">
+                <div id="line-chart"></div>
+            </div>
+
+            <div class="col-lg-6 map-col">
+               <div id="us-chart"></div>
+            </div>
+
+            <div class="col-lg-3 pie-col">
+                <div id="pie-chart"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid container-3">
+        <div class="row row-2">
+            <div class="col-lg-3 bar-col">
+                <div id="bar-chart">
+                </div>
+            </div>
+
+            <div class="col-lg-6 pcp-col">
+                <div id="pcp-chart"></div>
+            </div>
+
+            <div class="col-lg-3 radar-col">
+                <div id="radar-chart" id="radC"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
