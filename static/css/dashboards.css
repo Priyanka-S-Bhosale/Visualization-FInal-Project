@@ -1,0 +1,121 @@
+body.application {
+    background: black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: black;
+}
+
+.application {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-fluid {
+    margin-bottom: 30px;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container-2 {
+    border-bottom: 1px dotted gray;
+}
+
+.line-col {
+    border-right: 1px dotted gray;
+}
+
+.map-col {
+    border-right: 1px dotted gray;
+}
+
+.bar-col {
+    border-right: 1px dotted gray;
+}
+
+.pcp-col {
+    border-right: 1px dotted gray;
+}
+
+.navbar-brand {
+  text-align: center;
+  display: flex;
+}
+
+::after {
+    content: none;
+}
+
+::before {
+    content: none;
+}
+
+.chart-wrapper {
+
+}
+
+/**
+ Choropleth Map CSS
+ **/
+
+path:hover {
+    fill-opacity: .7;
+}
+
+.d3-tip {
+    line-height: 1;
+    padding: 12px;
+    background: black;
+    color: #fff;
+    border-radius: 2px;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+}
+
+.legend {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+.axis path{
+    stroke: white;
+}
+
+.dimension line {
+    stroke: white;
+}
+
+.background_lines{
+    opacity: 0.2;
+}
+
+.foreground_lines {
+    opacity: 0.5;
+}
+
+.map_path {
+    opacity: 0.5;
+}
+
+.bar {
+    opacity: 0.5;
+}
+
+.line {
+    opacity: 0.5;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 800px;
+    font-weight: bold;
+    color: white;
+}
